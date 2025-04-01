@@ -1,0 +1,47 @@
+body {
+  background-color: #add8e6;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Oswald", sans-serif;
+  font-size: 45px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imageBox {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.choice p {
+  font-weight: bold !important;
+  margin-bottom: 15px;
+}
+
+.choice img {
+  display: block;
+  margin: 0 auto;
+}
+
+.rotation-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.rotating-icon:hover {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
